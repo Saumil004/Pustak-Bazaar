@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="/script.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <!-- header------------------ -->
+  <div class="store-name">
+    <h2>Pustak Bazaar</h2>
+  </div>
+  <!-- header ends-------------- -->
+
+
+  <!-- navbar starts--------------------- -->
+  <div class="navbar">
+    <ul>
+      <li><a href="#" class="list-items">Home</a></li>
+      <li><a href="#" class="list-items">About</a></li>
+      <li><a href="#" class="list-items">Books</a></li>
+      <li><a href="#" class="list-items">Reviews</a></li>
+      <li><a href="#" class="list-items">Contact</a></li>
+      <div class="login">
+        <li><a href="#" class="list-items">Login</a></li>
+      </div>
+
+    </ul>
+  </div>
+  <!-- navbar ends------------------------ -->
+
+  <!-- author section starts -->
+  <div class="author-container">
+    <div class="author">
+      <h1 id="author-name">author name</h1>
+      <p id="about-author">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas odit nihil magnam, accusantium exercitationem sint totam autem placeat omnis quia?</p>
+      <button id="prev" type="button" onclick="previous()"><<</button>
+      <button id="next" type="button" onclick="next()">>></button>
+    </div>
+    <div class="author-pic">
+      <img alt="" id="authorImg">
+    </div>
+
+  </div>
+
+  <!-- author section ends ----------------->
+
+  <!-- books section starts ----------------->
+  <div class="book-section">
+    <h2><b>Collection</b></h2>
+  </div>
+  <table id="table1"></table>
+
+  <!-- books section ends---------------------->
+  
+
+  <!-- footer------->
+  <hr id="rule">
+  <div class="foot">
+    <footer>
+      <form action="#" id="frm1">
+        <h3>Sign up for news and updates</h3>
+        <input type="email" id="inp1" placeholder="Enter your Email here" onkeydown="submitOnEnter(event)">
+      </form>
+      <ul>
+        <li><i><box-icon type='logo' name='instagram-alt'></box-icon></i></li>
+        <li><i><box-icon name='facebook-circle' type='logo' ></box-icon></i></li>
+        <li><i><box-icon name='twitter' type='logo' ></box-icon></i></li>
+      </ul>
+    </footer>
+  </div>
+  <!-- footer ends---------- -->
+
+  
+ 
+  
+</body>
+</html>

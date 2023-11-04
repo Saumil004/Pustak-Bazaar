@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bookstore>
+
+<author>
+<name>Robert Frost</name>
+<about>Robert Lee Frost was an American poet. His work was initially published in England before it was published in the United States.</about>
+<profile-pic>/Resources/robert_frost.jpeg</profile-pic>
+<latest-release>
+  <book>The Road Not Taken</book>
+  <book>Fire and Ice</book>
+  <book>Nothing Gold Can Stay</book>
+</latest-release>
+</author>
+
+<author>
+<name>Ruskin Bond</name>
+<about>Ruskin Bond is an Indian author. His first novel, The Room on the Roof, was published in 1956, and it received the John Llewellyn Rhys Prize in 1957. Bond has authored more than 500 short stories, essays, and novels which includes 69 books for children.</about>
+<profile-pic>/Resources/ruskin_bond.jpeg</profile-pic>
+<latest-release>
+  <book>The Blue Umbrella</book>
+  <book>Cherry Tree</book>
+  <book>Angry River</book>
+</latest-release>
+</author>
+
+<author>
+<name>Munshi Premchand</name>
+<about>Dhanpat Rai Srivastava, better known as Munshi Premchand based on his pen name Premchand, was an Indian writer famous for his modern Hindustani literature. Premchand was a pioneer of Hindi and Urdu social fiction. </about>
+<profile-pic>/Resources/premchand.jpeg</profile-pic>
+<latest-release>
+  <book>Godaan</book>
+  <book>Kaphan</book>
+  <book>Gaban</book>
+</latest-release>
+</author>
+
+<author>
+<name>Dale Carnegie</name>
+<about>Dale Carnegie was an American writer and lecturer, and the developer of courses in self-improvement, salesmanship, corporate training, public speaking, and interpersonal skills.</about>
+<profile-pic>/Resources/dale_carnegie.jpeg</profile-pic>
+<latest-release>
+  <book>How to Win Friends and Influence People</book>
+  <book>The Art of Public Speaking</book>
+  <book>Effective Speaking</book>
+</latest-release>
+</author>
+
+</bookstore>
